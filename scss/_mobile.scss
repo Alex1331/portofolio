@@ -99,8 +99,8 @@
   .boxes {
     grid-template-columns: 1fr;
 
-    .box-1 {
-      font-size: 2rem;
+    & .box-1 {
+      font-size: 3vh;
     }
   }
 }
