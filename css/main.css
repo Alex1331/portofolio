@@ -299,4 +299,4 @@ main {
   .boxes {
     grid-template-columns: 1fr; }
     .boxes .box-1 {
-      font-size: 2rem; } }
+      font-size: 3vh; } }
