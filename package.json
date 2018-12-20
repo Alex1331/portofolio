@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Responsive Portofolio Website",
   "main": "index.js",
+  "homepage": "https://alex1331.github.io/portofolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "Portofolio",
@@ -13,6 +15,7 @@
   "author": "Alexandru Gheorghiu",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.10.0"
   }
 }
